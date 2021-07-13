@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Button  from './Button';
+import './style.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const Main =()=>{
+    return (
+        <div>
+            <h1 style={{textAlign:'center'}}>
+                Hello World!
+            </h1>
+            <p style={{textAlign:'center'}}>
+                React Js Development Program!
+            </p>
+            <div style={{display: "flex", justifyContent: "center", alignItems: "center", flexDirection:'column'}}>
+            <Button Info="Python" />
+            <Button Info="JavaScript" />
+            <Button Info="C++" />
+            </div>
+            <h3 style={{textAlign:'center'}}>Day 1 Assignment</h3>
+
+           
+        </div>
+
+    )
 }
-
-export default App;
+export default Main

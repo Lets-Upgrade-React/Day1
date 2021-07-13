@@ -1,0 +1,21 @@
+body{
+  background: #FEF6FB;
+}
+
+
+.btn {
+  width:100px;
+  height:45px;
+  background-color: #9D0720;
+  margin: 7px;
+  text-align: center;
+  transition: 0.2s;
+  color: white;     
+  border:none;       
+  border-radius: 5px;
+  display: block;
+}
+
+.btn:hover {
+  box-shadow: 3px 5px 9px 3px rgba(157,7,32,0.58);
+}
